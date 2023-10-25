@@ -14,7 +14,10 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 17px;
   color: var(--text-color);
-  background-color: var(--body-color)
+  background-color: var(--body-color);
+  background-image: url(../images/Conection-world-Landing-Body2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p {
@@ -215,8 +218,9 @@ select:focus {
 
 .bg-cover {
   background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 730px;
 }
 
 .border-primary {
